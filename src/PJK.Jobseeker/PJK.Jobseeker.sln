@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJK.Jobseeker.Domain", "PJK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJK.Jobseeker.Application", "PJK.Jobseeker.Application\PJK.Jobseeker.Application.csproj", "{7D251A40-652A-4491-8B8F-FC91F3E06A77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJK.Jobseeker.Persistence", "PJK.Jobseeker.Persistence\PJK.Jobseeker.Persistence.csproj", "{042625C2-7FD6-4930-B4D8-FFAB8F77A981}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,7 @@ Global
 		{CFFA38F9-3014-4332-BBC0-B0A6E60E93F8} = {07DA4847-055B-41AA-B6B4-24C110235682}
 		{EAAF2085-9E57-4B2F-9724-78C61386A87C} = {25E2D61F-459A-46E2-B48E-D9A66C43124E}
 		{7D251A40-652A-4491-8B8F-FC91F3E06A77} = {25E2D61F-459A-46E2-B48E-D9A66C43124E}
+		{042625C2-7FD6-4930-B4D8-FFAB8F77A981} = {FE32C3C4-C103-4D8D-8D8F-A76C3E0855CD}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EAAF2085-9E57-4B2F-9724-78C61386A87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +41,9 @@ Global
 		{7D251A40-652A-4491-8B8F-FC91F3E06A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D251A40-652A-4491-8B8F-FC91F3E06A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D251A40-652A-4491-8B8F-FC91F3E06A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042625C2-7FD6-4930-B4D8-FFAB8F77A981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042625C2-7FD6-4930-B4D8-FFAB8F77A981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042625C2-7FD6-4930-B4D8-FFAB8F77A981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042625C2-7FD6-4930-B4D8-FFAB8F77A981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
