@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJK.Jobseeker.Application",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJK.Jobseeker.Persistence", "PJK.Jobseeker.Persistence\PJK.Jobseeker.Persistence.csproj", "{042625C2-7FD6-4930-B4D8-FFAB8F77A981}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pjk.Jobseeker.ASPNET.MVC", "pjk.Jobseeker.ASPNET.MVC\pjk.Jobseeker.ASPNET.MVC.csproj", "{62B5C54B-759F-4867-890B-1E54503CE460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,7 @@ Global
 		{EAAF2085-9E57-4B2F-9724-78C61386A87C} = {25E2D61F-459A-46E2-B48E-D9A66C43124E}
 		{7D251A40-652A-4491-8B8F-FC91F3E06A77} = {25E2D61F-459A-46E2-B48E-D9A66C43124E}
 		{042625C2-7FD6-4930-B4D8-FFAB8F77A981} = {FE32C3C4-C103-4D8D-8D8F-A76C3E0855CD}
+		{62B5C54B-759F-4867-890B-1E54503CE460} = {CFFA38F9-3014-4332-BBC0-B0A6E60E93F8}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EAAF2085-9E57-4B2F-9724-78C61386A87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -45,5 +48,9 @@ Global
 		{042625C2-7FD6-4930-B4D8-FFAB8F77A981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{042625C2-7FD6-4930-B4D8-FFAB8F77A981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{042625C2-7FD6-4930-B4D8-FFAB8F77A981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B5C54B-759F-4867-890B-1E54503CE460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B5C54B-759F-4867-890B-1E54503CE460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B5C54B-759F-4867-890B-1E54503CE460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B5C54B-759F-4867-890B-1E54503CE460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
