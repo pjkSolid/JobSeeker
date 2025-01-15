@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PJK.Jobseeker.Application.Contracts;
 using PJK.Jobseeker.Domain.Common;
 using PJK.Jobseeker.Domain.Entities;
 
@@ -6,6 +7,18 @@ namespace PJK.Jobseeker.Persistence;
 
 public class JobseekerDbContext : DbContext
 {
+    private readonly ILoggedInUserService? _loggedInUserService;
+    
+    public JobseekerDbContext(DbContextOptions<JobseekerDbContext> options)
+        : base(options)
+    {
+    }
+    public JobseekerDbContext(DbContextOptions<JobseekerDbContext> options, ILoggedInUserService loggedInUserService)
+        : base(options)
+    {
+        _loggedInUserService = loggedInUserService;
+    }
+    
     public DbSet<Department> Departments { get; set; }
     public DbSet<JobApplication> JobApplications { get; set; }
     public DbSet<JobPosting> JobPostings { get; set; }

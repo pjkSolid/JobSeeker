@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using PJK.Jobseeker.Domain.Common;
+using PJK.Jobseeker.Domain.enums;
 
 namespace PJK.Jobseeker.Domain.Entities;
 
@@ -44,25 +45,8 @@ namespace PJK.Jobseeker.Domain.Entities;
         // [FutureDate(ErrorMessage = "Closing Date must be in the future.")]
         public DateTime ClosingDate { get; set; }
         
-        public enum JobType
-        {
-            [Display(Name = "Full Time")]
-            FullTime,
-            [Display(Name = "Part Time")]
-            PartTime,
-            [Display(Name = "Contract")]
-            Contract,
-            [Display(Name = "Internship")]
-            Internship
-        }
+
         public JobType Type { get; set; } = JobType.FullTime;
-        
-        public enum JobStatus
-        {
-            Open,
-            Closed,
-            Draft
-        }
         public JobStatus Status { get; set; } = JobStatus.Draft;
 
         [Required(ErrorMessage = "Date Posted is required.")]
